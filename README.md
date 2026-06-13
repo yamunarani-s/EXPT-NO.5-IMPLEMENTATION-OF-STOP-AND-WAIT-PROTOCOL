@@ -25,6 +25,7 @@ Step 15: At the particular time call the finish procedure.
 Step 16: Stop the program.
  
 # PROGRAM
+```
 set ns [new Simulator]
 set namfile [open out.nam w]
 $ns namtrace-all $namfile proc finish {}
@@ -71,14 +72,10 @@ $ns at 3.1 "$ns trace-annotate \"FTP stops\""
 $ns at 0.0 "$n0 label Sender"
 $ns at 0.0 "$n1 label Receiver"
 $ns run
- 
+ ```
 # OUTPUT
 
-
-
-
-
-
+<img width="806" height="439" alt="image" src="https://github.com/user-attachments/assets/5b77f62c-f44b-488c-b744-536981300e83" />
 
 
 
